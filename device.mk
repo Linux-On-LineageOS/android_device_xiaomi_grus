@@ -48,3 +48,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/grus/grus-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
